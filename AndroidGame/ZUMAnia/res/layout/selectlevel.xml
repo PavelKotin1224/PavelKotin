@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/select_level_frame">
+	<com.zumania.SelectLevelPage
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/select_level_page">
+	</com.zumania.SelectLevelPage>
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:orientation="vertical"
+		android:layout_height="fill_parent" android:background="@drawable/page_background">
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_weight="10" android:gravity="center_vertical|center_horizontal">
+			<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/select_level_menu"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_weight="20" android:orientation="vertical">
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/TextLinearLayout1" android:layout_weight="1" android:orientation="horizontal" android:layout_width="fill_parent">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout18" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout17" android:layout_weight="4" android:orientation="horizontal" android:layout_width="wrap_content">
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout13" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:src="@drawable/level_start0" android:id="@+id/LevelText1" android:layout_width="80dp" android:layout_gravity="center"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout12" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:id="@+id/LevelText2" android:layout_width="80dp" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout06" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:id="@+id/LevelText3" android:layout_width="80dp" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout15" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:id="@+id/LevelText4" android:layout_width="80dp" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout14" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:id="@+id/buttonlinearLayout1" android:layout_weight="5" android:layout_gravity="top">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout8" android:layout_width="wrap_content" android:layout_weight="1"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout9" android:layout_width="wrap_content" android:layout_weight="4" android:orientation="horizontal">
+					<LinearLayout android:id="@+id/linearLayout11" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal" android:layout_height="fill_parent" android:layout_gravity="top">
+						<com.component.CustomImageButton android:background="@drawable/level1" android:id="@+id/levelButton1" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout12" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton2" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout13" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton3" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout02" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton4" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout10" android:layout_width="wrap_content" android:layout_weight="1"></LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/TextLinearLayout2">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout22" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout24" android:layout_weight="4" android:orientation="horizontal" android:layout_width="wrap_content">
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout20" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText5" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout21" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText6" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout23" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText7" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout25" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText8" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout19" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:id="@+id/buttonlinearLayout2" android:layout_weight="5">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout14" android:layout_width="wrap_content" android:layout_weight="1"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout15" android:layout_width="wrap_content" android:layout_weight="4" android:orientation="horizontal">
+					<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton5" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout18" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton6" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout19" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton7" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout03" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton8" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout16" android:layout_width="wrap_content" android:layout_weight="1"></LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/TextLinearLayout3">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout30" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout32" android:layout_weight="4" android:orientation="horizontal" android:layout_width="wrap_content">
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout28" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText9" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout27" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText10" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout29" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText11" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout31" android:layout_weight="1" android:layout_width="wrap_content">
+						<ImageView android:layout_height="15dp" android:layout_width="80dp" android:id="@+id/LevelText12" android:src="@drawable/lock_text"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout16" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/buttonLinearLayout3" android:layout_weight="5">
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout09" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout08" android:layout_weight="4" android:orientation="horizontal" android:layout_width="wrap_content">
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout05" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton9" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout04" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton10" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout11" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton11" android:layout_height="40dp" android:layout_width="70dp" android:layout_gravity="top"></com.component.CustomImageButton>
+					</LinearLayout>
+					<LinearLayout android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:id="@+id/LinearLayout10" android:layout_weight="1" android:layout_width="wrap_content">
+						<com.component.CustomImageButton android:background="@drawable/lock" android:id="@+id/levelButton12" android:layout_gravity="top" android:layout_height="40dp" android:layout_width="70dp"></com.component.CustomImageButton>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout07" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_weight="1">
+			<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="bottom|center_horizontal">
+				<com.component.CustomImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/back_button" android:id="@+id/backButton"></com.component.CustomImageButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:layout_weight="5"></LinearLayout>
+		</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</LinearLayout>
+
+
+</FrameLayout>

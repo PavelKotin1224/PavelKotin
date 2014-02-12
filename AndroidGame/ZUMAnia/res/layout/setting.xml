@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_root_frame" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/page_background">
+
+
+	<com.zumania.SettingPage android:id="@+id/setting_page"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+	</com.zumania.SettingPage>
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_weight="4">
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/option_icon"></ImageView>
+
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout04"
+			android:layout_width="fill_parent" android:layout_weight="20"
+			android:orientation="vertical" android:layout_height="wrap_content">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout4"
+				android:layout_weight="1" android:orientation="horizontal">
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout7"
+					android:layout_weight="2" android:gravity="center_vertical|center_horizontal">
+					<LinearLayout android:id="@+id/linearLayout17" android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_weight="4"></LinearLayout>
+					<LinearLayout android:id="@+id/linearLayout18" android:layout_height="fill_parent" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_weight="3">
+						<ImageView android:id="@+id/imageView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/setting_music"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout8"
+					android:layout_weight="2" android:gravity="center_vertical|center_horizontal">
+					<com.component.CustomImageButton android:id="@+id/music_check_button" android:background="@drawable/vibration_on_button" android:layout_height="wrap_content" android:layout_width="wrap_content"></com.component.CustomImageButton>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout5"
+				android:layout_weight="1" android:orientation="horizontal">
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout9"
+					android:layout_weight="5" android:gravity="right|center_vertical|center_horizontal">
+					<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout14" android:layout_weight="4"></LinearLayout>
+					<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout13" android:layout_weight="2" android:gravity="center_vertical|center_horizontal">
+						<ImageView android:src="@drawable/setting_sound" android:id="@+id/imageView3" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout10"
+					android:layout_weight="6" android:gravity="center_vertical|center_horizontal">
+					<com.component.CustomImageButton android:id="@+id/sound_check_button" android:background="@drawable/vibration_on_button" android:layout_height="wrap_content" android:layout_width="wrap_content"></com.component.CustomImageButton>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout6"
+				android:layout_weight="1">
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout11"
+					android:layout_weight="2" android:gravity="right|center_vertical|center_horizontal">
+					<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout16" android:layout_weight="5"></LinearLayout>
+					<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout15" android:layout_weight="1" android:gravity="center_vertical|center_horizontal">
+						<ImageView android:src="@drawable/setting_vibration" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:id="@+id/linearLayout12"
+					android:layout_weight="3" android:gravity="center_vertical|center_horizontal">
+					<com.component.CustomImageButton android:id="@+id/vibration_check_button" android:background="@drawable/vibration_on_button" android:layout_height="wrap_content" android:layout_width="wrap_content"></com.component.CustomImageButton>
+				</LinearLayout>
+			</LinearLayout>
+
+
+
+
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1" android:layout_width="fill_parent"
+			android:layout_weight="1">
+			<LinearLayout android:layout_height="fill_parent"
+				android:id="@+id/linearLayout2" android:layout_width="wrap_content"
+				android:layout_weight="1" android:gravity="bottom|center_horizontal">
+				<com.component.CustomImageButton
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/back_button" android:id="@+id/back_button"></com.component.CustomImageButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="fill_parent"
+				android:id="@+id/linearLayout3" android:layout_width="wrap_content"
+				android:layout_weight="5"></LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</FrameLayout>

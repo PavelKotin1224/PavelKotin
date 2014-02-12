@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ranking_root_frame" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/page_background">
+
+	<com.zumania.RankingPage android:id="@+id/ranking_page"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+	</com.zumania.RankingPage>
+	<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:orientation="vertical">
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_weight="10">
+			<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/score_title"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="vertical" android:layout_weight="20">
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="vertical">
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout6" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="top|center_horizontal">
+					<ImageView android:layout_height="wrap_content" android:id="@+id/imageView2" android:layout_width="wrap_content" android:src="@drawable/maxscore"></ImageView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout7" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="top|center_horizontal">
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number9" android:id="@+id/sixthImageView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number8" android:id="@+id/fifthImageView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number7" android:id="@+id/fourthImageView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number6" android:id="@+id/thirdImageView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number5" android:id="@+id/secondImageView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number4" android:id="@+id/firstImageView"></ImageView>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="vertical">
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="top|center_horizontal">
+					<ImageView android:layout_height="wrap_content" android:id="@+id/imageView3" android:layout_width="wrap_content" android:src="@drawable/maxlevel"></ImageView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout9" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="top|center_horizontal">
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/score_number1" android:id="@+id/firstLevelView"></ImageView>
+					<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="visible" android:src="@drawable/score_number2" android:id="@+id/secLevelView"></ImageView>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_weight="1">
+			<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout10" android:layout_width="wrap_content" android:layout_weight="1" android:gravity="bottom|center_horizontal">
+				<com.component.CustomImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/back_button" android:id="@+id/back_button"></com.component.CustomImageButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout11" android:layout_width="wrap_content" android:layout_weight="5"></LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

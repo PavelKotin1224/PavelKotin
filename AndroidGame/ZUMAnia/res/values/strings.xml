@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ZUMAnia!</string>
+    <string name="app_name">ZUMAnia</string>
+<string name="webName">www.ZUMAnia.com</string>
+<string name="copyrightName">(c)Copyright@2011</string>
+<string name="version_url">http://www.ZUMAnia.com/message/version.xml</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+    <string name="second_str">app</string>
+
+</resources>

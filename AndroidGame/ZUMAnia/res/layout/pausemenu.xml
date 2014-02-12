@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="170dp" android:layout_width="230dp">
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:orientation="vertical" android:layout_height="170dp" android:layout_width="230dp">
+		<LinearLayout android:id="@+id/linearLayout4"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="center">
+			<com.component.CustomImageButton
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/continue_Btn"
+				android:background="@drawable/continue_button"></com.component.CustomImageButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout5"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="center">
+			<com.component.CustomImageButton
+				android:layout_height="wrap_content" android:id="@+id/option_Btn" android:layout_width="wrap_content"
+				android:background="@drawable/pause_option_button"></com.component.CustomImageButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout7"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="center">
+			<com.component.CustomImageButton
+				android:id="@+id/exit_Btn"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/pause_exit_button"></com.component.CustomImageButton>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
